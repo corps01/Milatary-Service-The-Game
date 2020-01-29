@@ -1,0 +1,11 @@
+MILATARY SERVICE THE GAME
+
+RECURSOS:
+sprites temporales:
+https://www.spriters-resource.com/game_boy_advance/armymen/sheet/70734/
+
+tutorial:
+https://www.youtube.com/watch?v=sQ1FpD0DYF8&t=204s
+
+trello:
+https://trello.com/b/5Da9aE67/milatary-service-the-game
