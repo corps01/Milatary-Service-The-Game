@@ -1,0 +1,11 @@
+[gd_scene format=2]
+
+[node name="Soldado" type="KinematicBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="Sprite" type="Sprite" parent="."]
+
+[node name="Barril_Pistola" type="Position2D" parent="."]
+
+[node name="Tiempo_Pistola" type="Timer" parent="."]
