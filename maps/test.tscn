@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://soldado/Jugador.tscn" type="PackedScene" id=1]
+[ext_resource path="res://assets/tiles/grey_brick_wall.tres" type="TileSet" id=2]
+
+[node name="Node" type="Node"]
+
+[node name="Jugador" parent="." instance=ExtResource( 1 )]
+position = Vector2( 116.343, 88.2825 )
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 32, 32 )
+cell_quadrant_size = 32
+cell_y_sort = true
+format = 1
+tile_data = PoolIntArray( 0, 536870912, 0, 1, 536870912, 0, 2, 536870912, 0, 3, 536870912, 0, 4, 536870912, 0, 5, 536870912, 0, 6, 536870912, 0, 7, 536870912, 0, 8, 536870912, 0, 9, 536870912, 0, 10, 536870912, 0, 65536, 536870912, 0, 65546, 536870912, 0, 131072, 536870912, 0, 131082, 536870912, 0, 196608, 536870912, 0, 196615, 536870912, 0, 196616, 536870912, 0, 196617, 536870912, 0, 196618, 536870912, 0, 262144, 536870912, 0, 262154, 536870912, 0, 327680, 536870912, 0, 327690, 536870912, 0, 393216, 536870912, 0, 393217, 536870912, 0, 393218, 536870912, 0, 393219, 536870912, 0, 393220, 536870912, 0, 393221, 536870912, 0, 393222, 536870912, 0, 393223, 536870912, 0, 393224, 536870912, 0, 393225, 536870912, 0, 393226, 536870912, 0 )
+__meta__ = {
+"_edit_lock_": true
+}

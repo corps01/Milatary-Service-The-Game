@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/tiles/base_out_atlas.png" type="Texture" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 16.0195, 23.9554 )
+
+[node name="Node2D" type="Node2D"]
+position = Vector2( -1.03915, -2.36171 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="wall_brick" type="Sprite" parent="."]
+position = Vector2( 0.108227, -0.307589 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 768, 208, 32, 48 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="wall_brick"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="wall_brick/StaticBody2D"]
+shape = SubResource( 1 )
