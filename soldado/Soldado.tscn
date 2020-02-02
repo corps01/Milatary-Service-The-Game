@@ -9,3 +9,6 @@
 [node name="Barril_Pistola" type="Position2D" parent="."]
 
 [node name="Tiempo_Pistola" type="Timer" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
